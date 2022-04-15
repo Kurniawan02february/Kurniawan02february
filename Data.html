@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FORM DATA DIRI MAHASISWA</title>
+        <style>
+            td{
+                text-align: left;
+            }
+            input{
+                float: left;
+            }
+            span{
+                float: left;
+                letter-spacing: 0.1cm;
+            }
+            textarea{
+                float: left;
+            }
+            jk{
+                float: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>FORM DATA DIRI MAHASISWA</h2>
+
+        <form>
+            <table>
+                <tr>
+                    <td>Nama </td>
+                    <td><span>:</span> <input type="text" placeholder="Cth: Dedy Kurniawan"></td>
+                </tr>
+                <tr>
+                    <td>Nim  </td>
+                    <td><span>:</span><input type="number" placeholder="Cth: 205430001"></td>
+                </tr>
+                <tr>
+                    <td>Prodi  </td>
+                    <td><span>:</span><input type="text" placeholder="Program Studi"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir  </td>
+                    <td><span>:</span><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin  </td>
+                    <td><span>:</span><input type="radio" name="jk">
+                        <jk>Laki-laki</jk> 
+                        
+                        <input type="radio" name="jk">
+                        <jk>Perempuan</jk>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat  </td>
+                    <td><span>:</span><textarea placeholder="Cth: Dsn, Rt/Rw, Kec, Kab. "></textarea></td>
+                </tr>
+                <tr>
+                    <td>Motto  </td>
+                    <td><span>:</span><textarea placeholder="Motto hidup anda"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Simpan"></td>
+                </tr>
+            </table>
+
+        </form>
+
+    </body>
+</html>
